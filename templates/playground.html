@@ -1,0 +1,15 @@
+<html>
+ <style>
+   .box{
+      width:100px;
+      height:100px;
+    }
+
+ </style>
+ <body>
+  {%for _ in _iter%}
+    <div class='box' style='background-color:{{color}}'></div>
+    <div class='spacer' style='height:10px;'></div>
+  {%endfor%}
+ </body>
+</html>
